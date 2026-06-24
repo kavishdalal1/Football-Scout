@@ -33,19 +33,27 @@ A football analytics project built using Python, Pandas, Matplotlib and Seaborn.
 ## Visualizations
 
 ### Top Forwards
-![Top Forwards](visualizations/top_forwards.png)
+![Top Forwards](top_forwards.png)
 
 ### Top Midfielders
-![Top Midfielders](visualizations/top_mf.png)
+![Top Midfielders](top_mf.png)
 
 ### Top Defenders
-![Top Defenders](visualizations/top_def.png)
+![Top Defenders](top_def.png)
 
 ### Top Goalkeepers
-![Top Goalkeepers](visualizations/top_gk.png)
+![Top Goalkeepers](top_gk.png)
 
 ### xG vs Goals Heatmap
-![Heatmap](visualizations/xg_goals_heatmap.png)
+![Heatmap](xg_goals_heatmap.png)
 
 ### Assists Heatmap
-![Heatmap](visualizations/assists_heatmap.png)
+![Heatmap](assists_heatmap.png)
+
+### Age vs Forward Score
+![Age vs Forward Score]
+(age_vs_forward_score.png)
+
+### Age vs Defender Score
+![Age vs Defender Score]
+(age_vs_defender_score.png)
