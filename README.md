@@ -54,4 +54,4 @@ A football analytics project built using Python, Pandas, Matplotlib and Seaborn.
 ![Age vs Forward Score](age_vs_forward_score.png)
 
 ### Age vs Defender Score
-![Age vs Defender Score](age_vs_defender_score.png)
+![Age vs Defender Score](age_vs_defender_score.png?v=2)
