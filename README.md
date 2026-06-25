@@ -1,177 +1,208 @@
-⚽ Football Scout Analytics
+# ⚽ Football Scout Analytics
 
-A Python-based football analytics project that evaluates player performance across Europe's top leagues using statistical analysis and custom scoring models.
-
-This project uses Pandas, NumPy, Matplotlib, and Seaborn to clean data, analyze player statistics, identify hidden talents, compare leagues and clubs, and visualize key football insights from the 2024–25 season.
+> A Python-based football analytics project that evaluates player performance across Europe's top football leagues using custom scoring models, statistical analysis, and data visualization.
 
 ---
 
-📊 Features
+# 📖 Overview
 
-- Cleans and preprocesses player datasets
-- Separates players into:
-  - Forwards
-  - Midfielders
-  - Defenders
-  - Goalkeepers
-- Creates a custom performance score for every position
-- Identifies:
-  - Top 20 players in every position
-  - Best finisher
-  - Hidden gems (Under-23 players)
-- Finds:
-  - Best attacking team
-  - Best defensive team
-  - Best attacking league
-  - Best defensive league
-- Performs correlation analysis using heatmaps
-- Studies the relationship between player age and performance
-- Generates professional visualizations automatically
+Football Scout Analytics analyzes player statistics from the **2024–25 European football season** to identify elite performers, hidden talents, top clubs, and league trends.
+
+The project uses **Python, Pandas, NumPy, Matplotlib, and Seaborn** to clean data, build custom player ratings, perform statistical analysis, and generate insightful visualizations.
 
 ---
 
-🛠 Technologies Used
+# 🚀 Features
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
----
-
-📂 Dataset
-
-Dataset used:
-
-FBref Player Statistics (2024–25 Season)
-
-The dataset contains player statistics including:
-
-- Goals
-- Assists
-- Expected Goals (xG)
-- Expected Assists (xAG)
-- Progressive Passes
-- Tackles
-- Blocks
-- Interceptions
-- Saves
-- Clean Sheets
-- Shot Accuracy
-- Age
-- Position
-- League
-- Club
+* 🧹 Data Cleaning & Preprocessing
+* ⚽ Position-wise Player Classification
+* ⭐ Custom Performance Rating System
+* 📊 Top Player Rankings
+* 🌟 Hidden Gem Detection (U-23 Players)
+* 🎯 Best Finisher Analysis
+* 🏟 Best Attacking & Defensive Club Analysis
+* 🌍 Best Attacking & Defensive League Analysis
+* 📈 Correlation Heatmaps
+* 📉 Age vs Performance Analysis
 
 ---
 
-📈 Visualizations
+# 🏆 Key Findings
 
-Top 20 Forwards
+## ⚽ Top Performers
 
-"Top Forwards" (top_forwards.png)
-
----
-
-Top 20 Midfielders
-
-"Top Midfielders" (top_mf.png)
+| Category         | Player                         |
+| ---------------- | ------------------------------ |
+| 🥇 Top Scorer    | **Kylian Mbappé (31 Goals)**   |
+| 🎯 Top Playmaker | **Mohamed Salah (18 Assists)** |
+| 🔥 Best Finisher | **Patrik Schick**              |
 
 ---
 
-Top 20 Defenders
+## 🌟 Hidden Gems (Under-23)
 
-"Top Defenders" (top_def.png)
+### ⚡ Forwards
 
----
+* Emanuel Emegha
+* Mason Greenwood
+* Bradley Barcola
+* Karl Etta
+* Dane Scarlett
 
-Top 20 Goalkeepers
+### 🎯 Midfielders
 
-"Top Goalkeepers" (top_gk.png)
+* Pedri
+* Cole Palmer
+* Jude Bellingham
+* Rayan Cherki
+* Florian Wirtz
 
----
+### 🛡️ Defenders
 
-Goals vs Expected Goals Correlation
+* Diego Coppola
+* Nathan Collins
+* Murillo
+* Omar El Hilali
+* Chrislain Matsima
 
-"Goals Heatmap" (xg_goals_heatmap.png)
+### 🥅 Goalkeepers
 
----
-
-Creativity Metrics Correlation
-
-"Creativity Heatmap" (assists_heatmap.png)
-
----
-
-Age vs Forward Performance
-
-"Age vs Forward Score" (age_vs_forward_score.png)
-
----
-
-Age vs Defender Performance
-
-"Age vs Defender Score" (age_vs_defender_score.png)
-
----
-
-🏆 Key Findings
-
-Top Performer Analysis
-
-- Top Scorer of the season
-- Top Playmaker
-- Best Finisher (Goals − xG)
-
-Hidden Gem Analysis
-
-The project identifies the best Under-23 players across:
-
-- Forwards
-- Midfielders
-- Defenders
-- Goalkeepers
-
-Team Analysis
-
-- Best attacking club based on average forward scores
-- Best defensive club based on average defender scores
-
-League Analysis
-
-- Best attacking league
-- Best defensive league
-
-Statistical Analysis
-
-The project investigates questions such as:
-
-- Does Expected Goals (xG) actually predict goals?
-- Do creative metrics strongly correlate with assists?
-- Does player age significantly affect performance?
+* Joan García
+* Yahia Fofana
+* Lucas Chevalier
+* Zion Suzuki
+* Giorgi Mamardashvili
 
 ---
 
-▶️ How to Run
+## 🏟 Club Analysis
+
+| Category               | Result       |
+| ---------------------- | ------------ |
+| 🔥 Best Attacking Club | **Atalanta** |
+| 🛡 Best Defensive Club | **West Ham** |
+
+---
+
+## 🌍 League Analysis
+
+| Category                 | Result             |
+| ------------------------ | ------------------ |
+| ⚔️ Best Attacking League | **Premier League** |
+| 🧱 Best Defensive League | **La Liga**        |
+
+---
+
+# 📊 Visualizations
+
+## Top 20 Forwards
+
+![Top Forwards](top_forwards.png)
+
+---
+
+## Top 20 Midfielders
+
+![Top Midfielders](top_mf.png)
+
+---
+
+## Top 20 Defenders
+
+![Top Defenders](top_def.png)
+
+---
+
+## Top 20 Goalkeepers
+
+![Top Goalkeepers](top_gk.png)
+
+---
+
+## Goals vs Expected Goals Correlation
+
+![Goals Heatmap](xg_goals_heatmap.png)
+
+---
+
+## Creativity Metrics Correlation
+
+![Creativity Heatmap](assists_heatmap.png)
+
+---
+
+## Age vs Forward Performance
+
+![Age vs Forward Score](age_vs_forward_score.png)
+
+---
+
+## Age vs Defender Performance
+
+![Age vs Defender Score](age_vs_defender_score.png)
+
+---
+
+# 📂 Dataset
+
+**Source:** FBref Player Statistics (2024–25 Season)
+
+The dataset includes:
+
+* Goals
+* Assists
+* Expected Goals (xG)
+* Expected Assists (xAG)
+* Progressive Passes
+* Tackles
+* Blocks
+* Interceptions
+* Saves
+* Clean Sheets
+* Shot Accuracy
+* Age
+* Position
+* Club
+* League
+
+---
+
+# 🛠 Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+---
+
+# ▶️ How to Run
 
 Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/Football-Scout.git
+```bash
+git clone https://github.com/kavishdalal1/Football-scout.git
+```
 
 Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 Run the project
 
+```bash
 python main.py
+```
 
 ---
 
-📁 Project Structure
+# 📁 Project Structure
 
-Football-Scout/
+```text
+Football-scout/
 
 ├── main.py
 ├── README.md
@@ -184,22 +215,24 @@ Football-Scout/
 ├── assists_heatmap.png
 ├── age_vs_forward_score.png
 ├── age_vs_defender_score.png
+```
 
 ---
 
-🚀 Future Improvements
 
-- Interactive Streamlit dashboard
-- Transfer recommendation system
-- Player similarity analysis
-- Radar charts for player comparison
-- Machine Learning based player rating model
-- Team of the Season generator
+# 👨‍💻 Author
+
+**Kavish Dalal**
+
+Second-Year B.Tech Student
+
+**Interests**
+
+* ⚽ Football Analytics
+* 📊 Data Analytics
+* 🐍 Python
+* 🤖 Machine Learning
 
 ---
 
-👨‍💻 Author
-
-Kavish Dalal
-
-Second-year B.Tech student passionate about Data Analytics, Python, and Football Analytics.
+⭐ **If you found this project interesting, consider giving the repository a star!**
